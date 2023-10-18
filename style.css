@@ -1,6 +1,6 @@
 
 :root {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: coral;
+    background: crimson;
 }
 
 main {
@@ -24,11 +24,15 @@ main {
     padding: 1rem;
 }
 
+.about {
+    text-align: center;
+}
+
 .navbar {
     width: 5rem;
     height: 100vh;
     position: fixed;
-    background-color: tan;
+    background-color: grey;
 }
 
 .navbar-nav {
@@ -52,13 +56,23 @@ main {
 .nav-link {
     display: flex;
     align-items: center;
-    height: 5rem;
-    color: lightseagreen;
+    height: 3rem;
+    color: black;
     text-decoration: none;
 }
 
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
 .nav-link:hover {
-    color:black;
+    color: crimson;
 }
 
 .link-text {
@@ -67,12 +81,12 @@ main {
 }
 
 h1 {
-    color:coral;
+    color: crimson;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
 }
