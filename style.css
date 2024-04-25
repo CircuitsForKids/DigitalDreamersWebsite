@@ -120,6 +120,42 @@ img {
 }
 
 .gamePics {
-    border:5px solid #ddd;
+    border:15px solid #ddd;
     width: 500px;
 }
+
+.videoForGames {
+    border:15px solid #ddd;
+    width: 500px;
+}
+
+.buttonForGames {
+    width: 50%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: crimson;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttonForGames:hover {
+    background-color: grey;
+}
+
+.buttonForGames:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);;
+}
+
+/* video {
+    display: block;
+    margin: 0 auto;
+} */
